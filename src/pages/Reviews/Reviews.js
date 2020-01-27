@@ -7,8 +7,6 @@ import './Reviews.css';
 class Reviews extends Component {
   constructor(props) {
     super(props);
-
- 
     this.goToDetails = this.goToDetails.bind(this);
   }
 
