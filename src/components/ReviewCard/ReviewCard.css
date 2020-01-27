@@ -1,0 +1,41 @@
+.reviewCard-container {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    border: 1px solid gray;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2), 
+    0px 1px 1px 0px rgba(0,0,0,0.14), 
+    0px 1px 3px 0px rgba(0,0,0,0.12);
+}
+
+.reviewCard-place {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.reviewCard-content {
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.reviewCard-footer {
+    font-size: 14px;
+    line-height: 16px;
+    width: 100%;
+    margin-top: auto;
+}
+
+.reviewCard-date {
+    margin-left: 10px;
+    color: gray;
+}
+
+.reviewCard-reply {
+    float: right;
+}

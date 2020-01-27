@@ -1,0 +1,18 @@
+.reviews-container {
+    padding-top: 100px;
+    padding-left: 95px;
+    padding-right: 95px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-rows: auto;
+    justify-items: center;
+    cursor: pointer;
+    grid-gap: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .reviews-container  {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
